@@ -3,7 +3,7 @@
 We’ll combine our skills for a fun test.
 
 ## Maze Layout
-![Maze layout](./images/06_maze_layout.svg)
+![Maze layout](/public/images/06_maze_layout.svg)
 
 **Levels:**
 1. **Open-loop** — Pre-program movement.

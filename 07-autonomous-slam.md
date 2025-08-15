@@ -4,7 +4,7 @@ SLAM = Simultaneous Localization and Mapping.
 It allows a robot to **map** its environment while **tracking** its position.
 
 ## SLAM Process
-![SLAM pipeline](./images/07_slam_pipeline.svg)
+![SLAM pipeline](/public/images/07_slam_pipeline.svg)
 
 1. **Sensor input** (LiDAR, camera).
 2. **Feature extraction**.
@@ -15,7 +15,7 @@ It allows a robot to **map** its environment while **tracking** its position.
 ---
 
 ## LiDAR Mapping Example
-![LiDAR scan](./images/08_lidar_scan.svg)
+![LiDAR scan](/public/images/08_lidar_scan.svg)
 
 With SLAM, JetAuto can:
 - Build a 2D map of the area.

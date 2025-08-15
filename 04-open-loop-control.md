@@ -11,7 +11,7 @@ We tell JetAuto to:
 2. Turn right for 1 second.
 3. Repeat 4 times.
 
-![Open-loop timing](./images/04_open_loop_square_timing.svg)
+![Open-loop timing](/public/images/04_open_loop_square_timing.svg)
 
 
 ```python

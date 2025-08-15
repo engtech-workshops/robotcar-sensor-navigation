@@ -10,7 +10,7 @@ JetAuto has sensors (e.g., ultrasonic, LiDAR) to detect obstacles, allowing JetA
 3. Turn until no obstacle ahead.
 4. Continue moving.
 
-![Sensor-based turning flow](./images/05_sensor_based_turning_flow.svg)
+![Sensor-based turning flow](/public/images/05_sensor_based_turning_flow.svg)
 
 ```python
 from jetauto import JetAuto

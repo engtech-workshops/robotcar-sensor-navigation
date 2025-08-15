@@ -15,7 +15,7 @@ Before we start coding, let's understand how different types of vehicles move.
 - Right wheel faster than left → turns left
 - Wheels spin opposite directions → rotates in place
 
-![Differential drive](./images/01_differential_drive_top.svg)
+![Differential drive](/public/images/01_differential_drive_top.svg)
 
 ---
 
@@ -24,7 +24,7 @@ Before we start coding, let's understand how different types of vehicles move.
 - Better traction, often used in off-road robots
 - Can still use differential steering if wheels are fixed
 
-![Four-wheel drive](./images/02_four_wheel_drive.svg)
+![Four-wheel drive](/public/images/02_four_wheel_drive.svg)
 
 ---
 
@@ -39,7 +39,7 @@ Before we start coding, let's understand how different types of vehicles move.
 - Advantage: Can rotate in place (zero turning radius)
 - JetAuto uses this
 
-![Ackermann vs differential turning](./images/03_turning_ackermann_vs_differential.svg)
+![Ackermann vs differential turning](/public/images/03_turning_ackermann_vs_differential.svg)
 
 ---
 
