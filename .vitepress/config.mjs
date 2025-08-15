@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Robot Car Navigation",
   description: "Workshop for a robot car navigation",
+  base: "/robotcar-sensor-navigation/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
