@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="100%" height="100%" fill="white"/>
+  <!-- Robot body -->
+  <rect x="300" y="140" width="300" height="240" rx="20" ry="20" fill="#f0f4ff" stroke="#333" stroke-width="3"/>
+  <text x="450" y="170" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle">Differential Drive (Top View)</text>
+  <!-- Wheels -->
+  <rect x="280" y="160" width="20" height="200" rx="5" fill="#333"/>
+  <rect x="600" y="160" width="20" height="200" rx="5" fill="#333"/>
+  <!-- Direction arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#333"/>
+    </marker>
+  </defs>
+  <line x1="240" y1="190" x2="270" y2="190" stroke="#333" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="240" y1="330" x2="270" y2="330" stroke="#333" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="630" y1="190" x2="660" y2="190" stroke="#333" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="630" y1="330" x2="660" y2="330" stroke="#333" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="210" y="195" font-family="Arial" font-size="16" text-anchor="end">Left wheel speed</text>
+  <text x="690" y="195" font-family="Arial" font-size="16">Right wheel speed</text>
+  <!-- Center arrows showing motions -->
+  <circle cx="450" cy="260" r="4" fill="#333"/>
+  <path d="M410,260 L490,260" stroke="#333" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="450" y="250" font-family="Arial" font-size="14" text-anchor="middle">Straight: vL = vR</text>
+  <path d="M455,265 A90,90 0 0,1 540,320" fill="none" stroke="#333" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="560" y="330" font-family="Arial" font-size="14">Turn Right: vL &gt; vR</text>
+  <path d="M445,265 A90,90 0 0,0 360,320" fill="none" stroke="#333" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="340" y="330" font-family="Arial" font-size="14" text-anchor="end">Turn Left: vR &gt; vL</text>
+  <!-- Spin in place -->
+  <path d="M430,220 A40,40 0 1,0 470,220" fill="none" stroke="#333" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="450" y="205" font-family="Arial" font-size="14" text-anchor="middle">Spin: vL = -vR</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="230" y="40" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle">Ackermann Steering</text>
+  <text x="670" y="40" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle">Differential Steering</text>
+
+  <!-- Ackermann car -->
+  <rect x="120" y="90" width="220" height="120" rx="15" fill="#eef7ff" stroke="#333" stroke-width="3"/>
+  <rect x="125" y="90" width="40" height="20" fill="#333"/>
+  <rect x="295" y="90" width="40" height="20" fill="#333"/>
+  <!-- Front wheels angled -->
+  <polygon points="130,200 170,200 170,190 130,190" fill="#333" transform="rotate(-20,150,195)"/>
+  <polygon points="300,200 340,200 340,190 300,190" fill="#333" transform="rotate(20,320,195)"/>
+  <!-- Turning path -->
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#333"/>
+    </marker>
+  </defs>
+  <path d="M230,230 A160,160 0 0,1 390,350" fill="none" stroke="#333" stroke-width="3" marker-end="url(#arrow2)"/>
+  <text x="230" y="260" font-family="Arial" font-size="14" text-anchor="middle">Inside/front wheel turns sharper</text>
+
+  <!-- Differential robot -->
+  <rect x="560" y="90" width="220" height="120" rx="15" fill="#f5f0ff" stroke="#333" stroke-width="3"/>
+  <!-- Side wheels -->
+  <rect x="540" y="100" width="20" height="100" fill="#333"/>
+  <rect x="780" y="100" width="20" height="100" fill="#333"/>
+  <!-- Arcs showing pivot -->
+  <path d="M670,230 A160,160 0 0,1 830,350" fill="none" stroke="#333" stroke-width="3" marker-end="url(#arrow2)"/>
+  <text x="670" y="260" font-family="Arial" font-size="14" text-anchor="middle">Turn by wheel-speed difference</text>
+  <text x="450" y="520" font-family="Arial" font-size="14" text-anchor="middle">Ackermann: steering angles differ • Differential: speeds differ; can spin in place</text>
+</svg>
