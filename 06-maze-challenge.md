@@ -3,16 +3,17 @@
 We’ll combine our skills for a fun test.
 
 ## Maze Layout
-![Maze layout](/public/images/06_maze_layout.svg)
 
-**Levels:**
-1. **Open-loop** — Pre-program movement.
-2. **Sensor-assisted** — Detect and avoid walls.
+Investigate maze B. 
 
-## Rules
-- Start from the marked point.
-- Reach the exit with the shortest time.
-- Penalty for collisions.
+### Challenge 1: Open-loop control
+
+Without using sensor, using only timing to move the JetAuto, navigate from the entry point to the exit point.
+
+### Challenge 2: Sensor-assisted
+
+Using the sensor to detect the wall, navigate the JetAuto from the entry point to the exit point.
+<!-- ![Maze layout](/public/images/06_maze_layout.svg) -->
 
 **Reflection:**
 Which approach was more accurate? Which was faster?

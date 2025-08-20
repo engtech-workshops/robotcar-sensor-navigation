@@ -10,13 +10,13 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Overview", link: "/00-overview" },
-      { text: "Intro to Movements", link: "/01-intro-car-movements" },
-      { text: "Setup", link: "/02-hiwonder-setup" },
-      { text: "Manual Control", link: "/03-manual-control" },
-      { text: "Open-Loop Control", link: "/04-open-loop-control" },
-      { text: "Sensor-Based Turning", link: "/05-sensor-based-turning" },
-      { text: "Maze Challenge", link: "/06-maze-challenge" },
-      { text: "Autonomous Driving", link: "/07-autonomous-slam" },
+      // { text: "Intro to Movements", link: "/01-intro-car-movements" },
+      // { text: "Setup", link: "/02-hiwonder-setup" },
+      // { text: "Manual Control", link: "/03-manual-control" },
+      // { text: "Open-Loop Control", link: "/04-open-loop-control" },
+      // { text: "Sensor-Based Turning", link: "/05-sensor-based-turning" },
+      // { text: "Maze Challenge", link: "/06-maze-challenge" },
+      // { text: "Autonomous Driving", link: "/07-autonomous-slam" },
     ],
 
     sidebar: [
@@ -25,7 +25,7 @@ export default defineConfig({
         collapsible: true,
         items: [
           { text: "Intro to Movements", link: "/01-intro-car-movements" },
-          { text: "Setup", link: "/02-hiwonder-setup" },
+          // { text: "Setup", link: "/02-hiwonder-setup" },
           { text: "Manual Control", link: "/03-manual-control" },
           { text: "Open-Loop Control", link: "/04-open-loop-control" },
           { text: "Sensor-Based Turning", link: "/05-sensor-based-turning" },

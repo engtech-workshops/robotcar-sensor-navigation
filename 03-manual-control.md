@@ -2,40 +2,24 @@
 
 Manual driving helps you understand the responsiveness of JetAuto.
 
----
 
 ## Objective
-Drive JetAuto in a square pattern using manual commands.
+Drive JetAuto manually using the PS2 controller.
 
----
 
 ## Steps
-1. Connect to JetAuto via SSH:
-```bash
-ssh pi@192.168.1.100
-```
+1. Make sure the PS2 controller is connected to the JetAuto.
 
-2. Run the manual control script:
-```bash
-python3 manual_drive.py
-```
+2. If not, turn off the PS2 controller, wait for a few seconds, then turn on the controller again. If it's still not connected, talk to the instructor.
 
-3. Use the keyboard keys:
-
-`W` → Forward
-
-`S` → Backward
-
-`A` → Left turn
-
-`D` → Right turn
-
-`Q` → Stop
+3. Familiarise yourself with the operation of JetAuto using the PS2 controller. (Hint: the JetAuto is controlled by the two joysticks on the controller)
 
 ---
 
 **Activity**:
 
-- Drive JetAuto in a perfect square.
+- Drive JetAuto through maze A.
 
-- Measure deviation from ideal path.
+# Extra
+
+You may notice that JetAuto allows the "shifting" motions to go in four different directions. This is due to JetAuto using the mecanum wheels. You may refer to [this](https://docs.sunfounder.com/projects/zeus-car-dev/en/latest/scratch/sc4_move_wheels.html) for explanation of mecanum wheels movement.

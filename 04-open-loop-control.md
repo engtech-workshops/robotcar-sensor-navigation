@@ -1,8 +1,11 @@
+<script setup>
+import OpenLoopControl from './components/OpenLoopControl.vue'
+</script>
+
 # Open-Loop Navigation
 
 Open-loop control runs movements without feedback — relying only on timing and motor power.
 
----
 
 ## Example Code: Square Path
 
@@ -11,7 +14,7 @@ We tell JetAuto to:
 2. Turn right for 1 second.
 3. Repeat 4 times.
 
-![Open-loop timing](/public/images/04_open_loop_square_timing.svg)
+<OpenLoopControl />
 
 
 ```python
@@ -39,8 +42,12 @@ for _ in range(4):
 
 **Activity**
 
+- Does JetAuto go back to its original position? Why?
+
 - Try to make JetAuto follow an L-shaped path.
 
 - Increase speed and see how accuracy changes.
 
-- Discuss: Why does it drift?
+- Discuss: What is the weakness of this type of control? How can it be improved?
+
+
