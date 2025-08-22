@@ -18,7 +18,7 @@ Drive JetAuto manually using the PS2 controller.
 
 **Activity**:
 
-- Drive JetAuto through maze A.
+- Drive JetAuto through the maze
 
 # Extra
 

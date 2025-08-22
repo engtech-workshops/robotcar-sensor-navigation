@@ -18,27 +18,25 @@ JetAuto has sensors (e.g., depth camera, LiDAR) to detect obstacles, allowing Je
 
 <SensorBasedTurningFlow/>
 
-```python
-from jetauto import JetAuto
-import time
+### Code 1
+1. Add `#` in front of the `rosrun ...` commands you have added in the previous exercise. This makes the commands to be comments that will not be executed when the script is run.
 
-car = JetAuto()
-
-while True:
-    dist = car.get_distance()  # in cm
-    if dist > 20:
-        car.move_forward(40)
-    else:
-        car.stop()
-        car.turn_left(40)
-        time.sleep(1)
+2. Add the following line in the file
+```bash
+rosrun jetauto_movement obstacle_distance.py
 ```
 
----
+3. Run the `launch.sh` file in the terminal.
 
-**Activity**
+4. The terminal will show you the distance of the object in front of the JetAuto using LiDAR.
 
-- Drive forward until an obstacle is detected, then turn left.
+5. Press <kbd>Ctrl</kbd>+<kbd>C</kbd> multiple times to stop the program.
 
-- Try different distances for detection.
+### Code 2
+1. Change the line to 
+```bash
+rosrun jetauto_movement obstacle_avoidance.py
+```
+
+2. This program is a simple obstacle avoidance program. Can you figure out how it works?
 
